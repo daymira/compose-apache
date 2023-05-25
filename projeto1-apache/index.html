@@ -1,0 +1,16 @@
+<html>
+<body>
+<span id="mensagem">
+<label>Qual seu nome: </label>
+<input type="text" id="name">
+<button id="submit" type="button" onclick= "msg();">Submit</button>
+</span>
+<script>
+function msg(){
+var nome = document.getElementById("name").value;
+document.getElementById("mensagem").innerHTML = "<h1> Bem-vindo(a)  <strong>" + nome +
+ " </strong></h1>";
+}
+</script>
+</body>
+</html>
